@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "935356094448",
+    "firebase_url": "https://nightlifebuddy-369a7.firebaseio.com",
+    "project_id": "nightlifebuddy-369a7",
+    "storage_bucket": "nightlifebuddy-369a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935356094448:android:466e744ce84efe0a",
+        "android_client_info": {
+          "package_name": "com.spud6y.a908306.nightlife_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935356094448-cnrf36486e5h2lc7p8cu3bqngd22fkm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spud6y.a908306.nightlife_buddy",
+            "certificate_hash": "df9de87e05f75d38a1b37935d4c32a9d3f1e4b27"
+          }
+        },
+        {
+          "client_id": "935356094448-rf9qttsi9di8g2ao89af2c3mu1i6m3lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOrnVSM_ARFqauxTB_giZLjCYMolfM08Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935356094448-rf9qttsi9di8g2ao89af2c3mu1i6m3lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

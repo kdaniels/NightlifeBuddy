@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".FriendsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/friendsToolbar"
+        layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/friendsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friendsToolbar"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/txtFriendsID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/friendsMessage"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/edtFriendsInput"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/txtFriendsID"
+            android:background="@drawable/input_field"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="21dp"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="@string/friendsSearchMessage"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:id="@+id/friendsSearchButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txtFriendsID"
+            android:layout_toEndOf="@id/edtFriendsInput"
+            android:layout_toRightOf="@id/edtFriendsInput"
+            android:background="@drawable/input_field"
+            android:src="@drawable/search"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsSearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/friendsLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

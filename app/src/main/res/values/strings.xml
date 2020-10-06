@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Nightlife Buddy</string>
+    <string name="alternate_app_name">Nightlife Companion</string>
+    <string name="icon_name">Night Buddy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Account Name</string>
+    <string name="nav_header_subtitle">userEmail@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="Logout">Log Out</string>
+    <string name="UserEmail">User Email</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="repeat_password">Repeat Password</string>
+
+    <string name="toolbarLogin">Login</string>
+    <string name="toolbarRegistration">New Account</string>
+
+    <!-- Setup Screen Strings -->
+    <string name="username">Username</string>
+    <string name="fullName">Full Name</string>
+    <string name="location">Location</string>
+
+    <string name="loadingTitle">Saving Information</string>
+    <string name="loadingMessage">Please wait while we are creating your account</string>
+
+    <string name="save">Save</string>
+
+    <!-- Main Screen Strings -->
+    <string name="safetyMessage">Safety Message</string>
+
+    <!-- New Post Strings -->
+    <string name="postTitle">Update Post</string>
+    <string name="uploadPost">Upload Post</string>
+    <string name="postHint">Post Description</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="new_post">New Post</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="settings">Settings</string>
+    <string name="sos">SOS</string>
+
+    <!-- Displaying Post Strings -->
+    <string name="postName">Profile Name</string>
+    <string name="postUploaded">Uploaded on</string>
+    <string name="postDate">Post Date</string>
+    <string name="postTime">Post Time</string>
+    <string name="postDescription">Post Description</string>
+    <string name="blankChar"> </string>
+
+    <!-- Settings Page Strings -->
+    <string name="settingsStatus">Profile Status</string>
+    <string name="settingsUsername">Username</string>
+    <string name="settingsFullName">Full Name</string>
+    <string name="settingsLocation">Location</string>
+    <string name="settingsDOB">Date of Birth (Optional)</string>
+    <string name="settingsGender">Gender (Optional)</string>
+    <string name="settingsPhoneNumber">Phone Number (Optional)</string>
+    <string name="settingsUpdateButton">Update Settings</string>
+    <string name="settingsToolbar">Account Settings</string>
+
+    <!-- Profile Page -->
+    <string name="profileName">Profile Name</string>
+    <string name="profileStatusMessage">Hey there, I am using Nightlife Companion the new nightlife assistance application</string>
+    <string name="profileDob">Date of Birth</string>
+    <string name="profilePhoneNumber">Phone Number</string>
+    <string name="profileGender">Gender</string>
+
+    <!-- Friends Page -->
+    <string name="friendsTitle">Friends</string>
+    <string name="friendsMessage">Search for People and Friends from School, College and University</string>
+    <string name="friendsSearchMessage">Search here...</string>
+    <string name="friendsToolbar">Find Friends</string>
+    <string name="friendsSosMessage">SOS Active</string>
+
+    <!-- Google Maps -->
+    <string name="userLocation">Your Location</string>
+    <string name="callTitle">Call User</string>
+    <string name="callPrompt">Do you want to call?</string>
+    <string name="callYes">Yes</string>
+    <string name="callNo">No</string>
+
+    <!-- Content Descriptions -->
+    <string name="contentAddPost">Add New Post</string>
+</resources>

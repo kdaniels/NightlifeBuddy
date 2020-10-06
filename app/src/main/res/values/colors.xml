@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323231</color>
+    <color name="colorPrimaryDark">#2a2a2a</color>
+    <color name="colorPrimaryAlternative">#00BCD4</color>
+    <color name="colorPrimaryDarkAlternative">#00ABC1</color>
+    <color name="colorPrimaryTransparent">#8000BCD4</color>
+    <color name="colorAccent">#E9EBEE</color>
+    <color name="colorGrey">#A9A9A9</color>
+
+    <!-- Floating button -->
+    <color name="fabSOS">#f9f9f9</color>
+
+    <!-- Background -->
+    <color name="white">#ffffff</color>
+    <color name="appBackground">#fafafa</color>
+</resources>

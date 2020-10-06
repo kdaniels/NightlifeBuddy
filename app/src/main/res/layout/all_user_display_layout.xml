@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/friendsIndLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/allUsersProfilePicture"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/allUsersUsername"
+            android:layout_width="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/username"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="100dp" />
+
+        <TextView
+            android:id="@+id/allUsersFullName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/fullName"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginStart="100dp" />
+
+        <LinearLayout
+            android:id="@+id/friendsSosLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/rec"
+                android:layout_gravity="start"
+                android:layout_marginStart="100dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="100dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:text="@string/friendsSosMessage"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+
+        
+    </LinearLayout>
+
+</RelativeLayout>
